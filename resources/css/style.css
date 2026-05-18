@@ -673,39 +673,54 @@ a:hover {
   max-width: var(--max-w);
   margin: 0 auto;
   padding: 0 var(--container-padding);
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: var(--sp-8);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--sp-12);
 }
 
 .footer-meta {
   font-size: var(--text-sm);
   color: var(--color-text-muted-light);
+  flex: 1;
+  max-width: 400px;
+  line-height: var(--line-height-relaxed);
 }
 
 .footer-meta h3 {
-  font-size: var(--text-base);
+  font-size: var(--text-lg);
   font-weight: var(--font-weight-bold);
   color: white;
-  margin-bottom: var(--sp-4);
+  margin-bottom: var(--sp-6);
+  letter-spacing: 0.5px;
 }
 
 .footer-links {
   list-style: none;
+  display: flex;
+  gap: var(--sp-6);
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .footer-links li {
-  margin-bottom: var(--sp-2);
+  margin-bottom: 0;
 }
 
 .footer-links a {
   font-size: var(--text-sm);
   color: var(--color-text-muted-light);
   transition: color var(--transition-fast);
+  font-weight: var(--font-weight-medium);
+  padding: var(--sp-2) var(--sp-4);
+  border-radius: var(--radius-md);
+  display: inline-block;
 }
 
 .footer-links a:hover {
   color: white;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* ============================================================================
