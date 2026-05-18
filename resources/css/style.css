@@ -227,7 +227,7 @@ a:hover {
 }
 
 .hero-eyebrow {
-  font-size: var(--text-sm);
+  font-size: var(--text-xl);
   color: var(--color-accent);
   font-weight: var(--font-weight-semibold);
   text-transform: uppercase;
