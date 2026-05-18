@@ -27,7 +27,6 @@ digest/
 eng.traineddata
 
 # Reference documents (root level - use resources/documents/ instead)
-Forrester-*.pdf
 quickblog-jamstack-guide.md
 
 # Feedback/notes
