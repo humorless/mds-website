@@ -1,0 +1,62 @@
+# Build output
+public/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+
+# Source documents (not for version control)
+*.docx
+digest/
+eng.traineddata
+
+# Reference documents (root level - use resources/documents/ instead)
+Forrester-*.pdf
+quickblog-jamstack-guide.md
+
+# Feedback/notes
+feedback_*.md
+
+# Dependencies
+node_modules/
+.npm/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+*.min.js
+*.min.css
+dist/
+.cache/
+
+# Language/build tools
+.clj-kondo/
+.lsp/
+target/
+.m2/
+
+# Logs
+*.log
+
+# Temporary
+.work/
+*.tmp

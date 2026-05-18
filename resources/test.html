@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Design System Test</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand">MDS</a>
+      <ul class="nav-links">
+        <li><a href="#" class="nav-link">About</a></li>
+        <li><a href="#" class="nav-link">Features</a></li>
+        <li><a href="#" class="nav-link" class="nav-link--cta">Get Started</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div>
+          <p class="hero-eyebrow">Welcome</p>
+          <h1 class="hero-title">Modern Data Solutions</h1>
+          <p class="hero-subtitle">Build faster with our comprehensive CSS design system.</p>
+          <div class="hero-actions">
+            <button class="btn btn--primary btn--lg">Get Started</button>
+            <button class="btn btn--outline-white btn--lg">Learn More</button>
+          </div>
+        </div>
+        <div>
+          <img src="images/cover.jpeg" alt="Book Cover" class="book-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section section--light">
+    <div class="container">
+      <h2 class="section-title">Features</h2>
+      <div class="card-grid">
+        <div class="card">
+          <p class="card-label">Feature 1</p>
+          <h3 class="card-title">Design System</h3>
+          <p class="card-desc">Comprehensive CSS variables and component styles.</p>
+          <a href="#" class="card-link">Learn more →</a>
+        </div>
+        <div class="card card--highlight">
+          <p class="card-label">Feature 2</p>
+          <h3 class="card-title">Responsive</h3>
+          <p class="card-desc">Fully responsive design with mobile-first approach.</p>
+          <a href="#" class="card-link">Learn more →</a>
+        </div>
+        <div class="card">
+          <p class="card-label">Feature 3</p>
+          <h3 class="card-title">Accessible</h3>
+          <p class="card-desc">Built with accessibility best practices in mind.</p>
+          <a href="#" class="card-link">Learn more →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">What Users Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"This design system saved us weeks of development time."</p>
+          <p class="testimonial-author">Jane Doe</p>
+          <p class="testimonial-role">Product Designer</p>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Excellent documentation and consistent components."</p>
+          <p class="testimonial-author">John Smith</p>
+          <p class="testimonial-role">Lead Developer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="section section--dark">
+    <div class="container">
+      <h2 class="section-title text-white">By The Numbers</h2>
+      <div class="stat-row">
+        <div class="stat">
+          <p class="stat-number">50+</p>
+          <p class="stat-label">Components</p>
+        </div>
+        <div class="stat">
+          <p class="stat-number">100%</p>
+          <p class="stat-label">Responsive</p>
+        </div>
+        <div class="stat">
+          <p class="stat-number">1000+</p>
+          <p class="stat-label">Users</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-meta">
+        <h3>Modern Data Solutions</h3>
+        <p>A comprehensive CSS design system for modern web applications.</p>
+      </div>
+      <div class="footer-links">
+        <h3 style="color: white; font-size: var(--text-base); margin-bottom: var(--sp-4);">Product</h3>
+        <ul class="footer-links">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3 style="color: white; font-size: var(--text-base); margin-bottom: var(--sp-4);">Legal</h3>
+        <ul class="footer-links">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Verify CSS has loaded
+    const style = window.getComputedStyle(document.body);
+    const fontFamily = style.fontFamily;
+    console.log('CSS loaded successfully!');
+    console.log('Font family:', fontFamily);
+    console.log('Body color:', style.color);
+  </script>
+</body>
+</html>
