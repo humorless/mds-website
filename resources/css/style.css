@@ -779,10 +779,7 @@ a:hover {
     --sp-24: 3rem;
     --sp-16: 2rem;
     --sp-12: 1.5rem;
-  }
-
-  html {
-    font-size: 14px;
+    --line-height-relaxed: 1.9;
   }
 
   .hero {
