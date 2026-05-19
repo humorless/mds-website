@@ -799,7 +799,7 @@ a:hover {
   }
 
   .nav-inner {
-    padding: var(--sp-2) 0;
+    padding: var(--sp-2) var(--container-padding);
   }
 
   .nav-links {
